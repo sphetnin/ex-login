@@ -4,10 +4,12 @@ WORKDIR /app
 
 COPY ["package.json", "package-lock.json*", "./"]
 
-RUN npm install -ci
+#RUN npm install -ci
+RUN npm i
 
 COPY . .
 
-RUN npm run build
+#RUN npm run build
+EXPOSE 5173
 
-CMD ["npx", "serve", "dist"]
+CMD ["npm", "run", "dev"]
