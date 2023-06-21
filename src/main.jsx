@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import SignIn from './component/SignIn.jsx'
-import SignUp from './component/Register.jsx'
+import SignIn from './route/SignIn.jsx'
+import SignUp from './route/Register.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
