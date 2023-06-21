@@ -105,7 +105,7 @@ function App() {
     localStorage.removeItem('token')
     window.location = '/signin'
   }
-
+/*
   useEffect(() => {
     const token = localStorage.getItem("token")
     if (token) {
@@ -132,7 +132,7 @@ function App() {
       window.location = '/signin'
     }
   }, [])
-
+*/
   return (
     <>
       <Box sx={{ display: 'flex' }}>
